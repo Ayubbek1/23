@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+header{
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.grayBlock{
+    background: rgb(230, 230, 230);
+    text-align: center;
+    padding: 30px;
+}
+.add{
+    padding: 20px;
+    display: flex;
+    background: rgb(230, 230, 230);
+    align-items: center;
+
+    margin: 30px 0;
+}
+.item{
+    width: 100px;
+    height: 50px;
+    background: rgb(163, 87, 87);
+    margin: 0 auto;
+}
+.iphone{
+    position: sticky;
+    top: 0px;
+}
+.js{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 40px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#q{
+    background: violet;
+}
+#w{
+    background: black;
+}
+#x{
+    background: yellow;
+}
+#z{
+    background:lightblue;
+}
+.buy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.containertwo{
+    width: 1600px;
+    margin: 0 auto;
+}
+.twoblock{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.block{
+    background:  rgb(230, 230, 230);
+    padding: 20px 30px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: small;
+}
+#buy{
+    font-size: small;
+    color: rgb(184, 102, 26);
+}
+.new{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#phone{
+    font-size: 30px;
+    font-weight: 600;
+}
+#e{
+    width: 100%;
+    border-radius:45px ;
+}
+
+.info button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 0;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.model p{
+    white-space: nowrap;
+}
+.model{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.type{
+    display: flex;
+    border-radius: 15px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    border-color: gray;
+}
+.l {
+    text-align: start;
+    white-space:normal;
+}
+.text p{
+    white-space:normal;
+    text-align: end;
+    font-size: smaller;
+}
+.info{
+    margin-top: 10px;
+}
+#f{
+    margin-top: 30px;
+}
